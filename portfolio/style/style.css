@@ -8,7 +8,7 @@ h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 50px;
     text-align: center;
-
+    display: block;
 }
 h2 {
     font-family: "Merriweather", serif;
@@ -17,6 +17,7 @@ h2 {
 figcaption {
     font-family: "Merriweather", serif;
     font-size: 18px;
+    display: block;
 }
 strong {
     text-transform: uppercase;
@@ -27,6 +28,7 @@ strong {
 }
 #picture {
     border-radius: 100%;
+    display: block;
 }
 p {
     font-size: 20px;
