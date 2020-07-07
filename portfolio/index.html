@@ -10,19 +10,32 @@
         <meta property="og:title" content="Cleyton Oliveira Portfolio">
         <meta property="og:description" content="Acess my portfolio and check the amazing websites I build.">
         <meta property="og:image" content="img/picture.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
         <title>Cleyton Oliveira Portfolio</title>
         <style>
+            * {
+                margin: 0px;
+            }
             body {
                 background: rgb(244, 244, 246)
             }
-            h1, h2 {
+            h1 {
                 font-family: "Open Sans", sans-serif;
+                font-size: 50px;
+            }
+            h2 {
+                font-family: "Merriweather", serif;
+                font-size: 36px;
             }
             figcaption {
                 font-family: "Merriweather", serif;
+                font-size: 18px;
             }
             strong {
                 text-transform: uppercase;
+            }
+            #picture {
+                border-radius: 100%;
             }
         </style>
     </head>
@@ -43,8 +56,8 @@
         <main>
             <section>
                 <h2>Hello! Welcome to my Portfolio</h2>
-                <figure id="picture">
-                    <img src="img/picture.jpg" alt="Nice to meet you, my name is Cleyton.">
+                <figure>
+                    <img id="picture" src="img/picture.jpg" alt="Nice to meet you, my name is Cleyton.">
                     <figcaption>
                         Passionate about <i>Technology</i> and <i>Sports</i>, sure that life is learning with news <b>challenges</b> and solutions <b>problems</b>.
                     </figcaption>
