@@ -57,6 +57,9 @@ strong {
 .bigger {
     font-size: 26px;
 }
+li:nth-child(odd) {
+    color: white;
+}
 #menu {
     list-style: none;
 }
