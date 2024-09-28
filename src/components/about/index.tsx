@@ -1,4 +1,4 @@
-import { Title } from "../../components/Title";
+import { Title } from "../Title";
 import cleyton from "../../../public/cleyton.png";
 import Image from "next/image";
 

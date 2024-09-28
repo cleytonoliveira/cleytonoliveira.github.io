@@ -1,6 +1,6 @@
 import Head from "next/head";
 import "../../styles/globals.css";
-import { Home, Skills, About, Projects, Contact } from "../components";
+import { Home, About, Skills, Projects, Contact } from "../components";
 // import { DarkModeSwitch } from "../components/DarkModeSwitch";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";

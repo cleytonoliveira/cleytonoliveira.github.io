@@ -1,5 +1,5 @@
-import { Title } from "../../components/Title";
-import { SkillCard } from "../../components/SkillCard";
+import { Title } from "../Title";
+import { SkillCard } from "../SkillCard";
 
 export function Skills() {
   return (

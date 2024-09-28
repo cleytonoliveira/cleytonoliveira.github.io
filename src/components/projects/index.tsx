@@ -1,5 +1,5 @@
-import { Title } from "../../components/Title";
-import { ProjectsList } from "../../components/ProjectsList";
+import { Title } from "../Title";
+import { ProjectsList } from "../ProjectsList";
 
 export function Projects() {
   return (
